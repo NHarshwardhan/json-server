@@ -1,0 +1,249 @@
+{
+  "foodsMenu": [
+    {
+      "id": 1,
+      "category": "Cold Appetizers",
+      "picture": "https://mynu.s3.eu-central-1.amazonaws.com/images/categories/normal/CDA.png",
+      "foodname": [
+        {
+          "imgSrc": "https://mynu.s3.amazonaws.com/images/6415a38089fde51663f8b6ff/items/58084364.jpeg",
+          "name": "Yelangi",
+          "pieces": 4,
+          "rating": 5,
+          "price": 2500,
+          "qty": 0
+        },
+        {
+          "imgSrc": "https://mynu.s3.amazonaws.com/images/6415a38089fde51663f8b6ff/items/261792000.jpeg",
+          "name": "Mix Appetizer",
+          "pieces": 0,
+          "rating": 4,
+          "price": 6000,
+          "qty": 0
+        },
+        {
+          "imgSrc": "https://mynu.s3.amazonaws.com/images/6415a38089fde51663f8b6ff/items/812209221.jpeg",
+          "name": "Baba Ghanoush",
+          "pieces": 0,
+          "rating": 5,
+          "price": 3000,
+          "qty": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "Salad",
+      "picture": "https://mynu.s3.eu-central-1.amazonaws.com/images/categories/normal/SLD.jpeg",
+      "foodname": [
+        {
+          "imgSrc": "https://mynu.s3.amazonaws.com/images/6415a38089fde51663f8b6ff/items/58084364.jpeg",
+          "name": "Eggplant",
+          "pieces": 0,
+          "rating": 5,
+          "price": 3500,
+          "qty": 0
+        },
+        {
+          "imgSrc": "https://mynu.s3.amazonaws.com/images/6415a38089fde51663f8b6ff/items/261792000.jpeg",
+          "name": "Tabbouleh",
+          "pieces": 0,
+          "rating": 3,
+          "price": 6000,
+          "qty": 0
+        },
+        {
+          "imgSrc": "https://mynu.s3.amazonaws.com/images/6415a38089fde51663f8b6ff/items/812209221.jpeg",
+          "name": "Coleslaw",
+          "pieces": 0,
+          "rating": 4,
+          "price": 3000,
+          "qty": 0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "Hot Appetizers",
+      "picture": "https://mynu.s3.eu-central-1.amazonaws.com/images/categories/normal/CDA.png",
+      "foodname": [
+        {
+          "imgSrc": "https://mynu.s3.amazonaws.com/images/6415a38089fde51663f8b6ff/items/58084364.jpeg",
+          "name": "Yelangi",
+          "pieces": 4,
+          "rating": 5,
+          "price": 2500,
+          "qty": 0
+        },
+        {
+          "imgSrc": "https://mynu.s3.amazonaws.com/images/6415a38089fde51663f8b6ff/items/261792000.jpeg",
+          "name": "Mix Appetizer",
+          "pieces": 0,
+          "rating": 4,
+          "price": 6000,
+          "qty": 0
+        },
+        {
+          "imgSrc": "https://mynu.s3.amazonaws.com/images/6415a38089fde51663f8b6ff/items/812209221.jpeg",
+          "name": "Baba Ghanoush",
+          "pieces": 0,
+          "rating": 5,
+          "price": 3000,
+          "qty": 0
+        }
+      ]
+    }
+  ],
+  "orderedMenu": [
+    {
+      "order_summary": [
+        {
+          "qty": 1,
+          "name": "Yelangi",
+          "price": 2500
+        },
+        {
+          "qty": 2,
+          "name": "Mix Appetizer",
+          "price": 12000
+        },
+        {
+          "qty": 1,
+          "name": "Baba Ghanoush",
+          "price": 3000
+        },
+        {
+          "qty": 1,
+          "name": "Tabbouleh",
+          "price": 6000
+        },
+        {
+          "qty": 1,
+          "name": "Coleslaw",
+          "price": 3000
+        }
+      ],
+      "total_amount": 26500,
+      "note": "Do not put more chilly on it, make it very light",
+      "orderCompleted": "deliver",
+      "order_preparing": true,
+      "order_accepted": true,
+      "order_delivered": true,
+      "id": 1
+    },
+    {
+      "order_summary": [
+        {
+          "qty": 1,
+          "name": "Yelangi",
+          "price": 2500
+        },
+        {
+          "qty": 1,
+          "name": "Mix Appetizer",
+          "price": 6000
+        },
+        {
+          "qty": 1,
+          "name": "Baba Ghanoush",
+          "price": 3000
+        }
+      ],
+      "total_amount": 11500,
+      "note": "Make Baba Sweet",
+      "orderCompleted": "waiting",
+      "order_preparing": false,
+      "order_accepted": false,
+      "order_delivered": false,
+      "id": 2
+    },
+    {
+      "order_summary": [
+        {
+          "qty": 1,
+          "name": "Yelangi",
+          "price": 2500
+        },
+        {
+          "qty": 1,
+          "name": "Mix Appetizer",
+          "price": 6000
+        }
+      ],
+      "total_amount": 8500,
+      "note": "Please dont put cihlly on it",
+      "orderCompleted": "deliver",
+      "order_preparing": true,
+      "order_accepted": true,
+      "order_delivered": true,
+      "id": 3
+    },
+    {
+      "order_summary": [
+        {
+          "qty": 1,
+          "name": "Yelangi",
+          "price": 2500
+        },
+        {
+          "qty": 1,
+          "name": "Mix Appetizer",
+          "price": 6000
+        },
+        {
+          "qty": 1,
+          "name": "Baba Ghanoush",
+          "price": 3000
+        }
+      ],
+      "total_amount": 11500,
+      "note": "Put more chilly",
+      "orderCompleted": "waiting",
+      "order_preparing": false,
+      "order_accepted": false,
+      "order_delivered": false,
+      "id": 4
+    },
+    {
+      "order_summary": [
+        {
+          "qty": 3,
+          "name": "Yelangi",
+          "price": 7500
+        },
+        {
+          "qty": 1,
+          "name": "Mix Appetizer",
+          "price": 6000
+        },
+        {
+          "qty": 1,
+          "name": "Baba Ghanoush",
+          "price": 3000
+        },
+        {
+          "qty": 1,
+          "name": "Eggplant",
+          "price": 3500
+        },
+        {
+          "qty": 1,
+          "name": "Tabbouleh",
+          "price": 6000
+        },
+        {
+          "qty": 1,
+          "name": "Coleslaw",
+          "price": 3000
+        }
+      ],
+      "total_amount": 29000,
+      "note": "Please make it more spicy",
+      "orderCompleted": "deliver",
+      "order_preparing": true,
+      "order_accepted": true,
+      "order_delivered": true,
+      "id": 5
+    }
+  ]
+}
