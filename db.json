@@ -129,6 +129,10 @@
       "order_preparing": true,
       "order_accepted": true,
       "order_delivered": true,
+      "calling_waiter": false,
+      "payment_mode": "",
+      "paid_status": false,
+      "rating": 0,
       "id": 1
     },
     {
@@ -155,6 +159,10 @@
       "order_preparing": false,
       "order_accepted": false,
       "order_delivered": false,
+      "calling_waiter": false,
+      "payment_mode": "",
+      "paid_status": false,
+      "rating": 0,
       "id": 2
     },
     {
@@ -176,6 +184,9 @@
       "order_preparing": true,
       "order_accepted": true,
       "order_delivered": true,
+      "payment_mode": "card",
+      "paid_status": false,
+      "rating": 0,
       "id": 3
     },
     {
@@ -202,6 +213,10 @@
       "order_preparing": false,
       "order_accepted": false,
       "order_delivered": false,
+      "calling_waiter": false,
+      "payment_mode": "",
+      "paid_status": false,
+      "rating": 0,
       "id": 4
     },
     {
@@ -243,6 +258,10 @@
       "order_preparing": true,
       "order_accepted": true,
       "order_delivered": true,
+      "calling_waiter": false,
+      "payment_mode": "cash",
+      "paid_status": true,
+      "rating": 5,
       "id": 5
     }
   ]
